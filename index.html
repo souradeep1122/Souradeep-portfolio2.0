@@ -1,688 +1,387 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Souradeep</title>
-    <link rel="stylesheet" href="styles1.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="screen380px.css" />
-  </head>
-  <body>
-    <div class="all1">
-      <div id="nav">
-        <div id="left">Souradeep</div>
-        <div class="middle">
-          <a href="#Home-section"><li>home</li></a>
-          <a href="#About-section"><li>about</li></a>
-          <a href="#Service-section"><li>service</li></a>
-          <a href="#skills_Mob"><li>skills</li></a>
-          <a href="#Projects-section"><li>Projects</li></a>
-          <a href="#Blog-section"><li>blog</li></a>
-          <a href="#Contact-section"><li>Contact</li></a>
-        </div>
-        <div id="right">
-          <div class="mode">
-            <div class="circle-lap" onclick="mode()"></div>
-          </div>
-        </div>
-      </div>
-      <div class="home">
-        <div id="middle-part">
-          <div id="left-text">
-            <div><button id="intro">web developer</button></div>
-            <div id="name">souradeep saha</div>
-            <div id="bio">
-              Experienced web developer skilled in creating dynamic websites and
-              applications for optimal user engagement.
-            </div>
-            <div id="button_2">
-              <a href="cv.pdf"><button>download CV</button></a>
-              <a href="#Contact-section"><button>hire me now</button></a>
-            </div>
-            <div class="links">
-              <div>check out my:</div>
-              <a href="https://youtube.com"><i class="ri-youtube-fill"></i></a>
-              <a href="https:facebook.com"
-                ><i class="ri-facebook-box-fill"></i
-              ></a>
-              <a href="https:linkedin.com"
-                ><i class="ri-linkedin-box-fill"></i
-              ></a>
-              <a href="https://wa.me/qr/7K6JQNNMSCLPM1"
-                ><i class="ri-whatsapp-fill"></i
-              ></a>
-              <a href="https://github.com/    souradeep1122"
-                ><i class="ri-github-fill"></i
-              ></a>
-            </div>
-          </div>
-          <div id="right-text">
-            <img src="ss (47).jpg" />
-          </div>
-        </div>
-      </div>
-      <div id="About-section" class="about">
-        <div class="left_div">
-          <img class="img_2" src="ss (47).jpg" />
-        </div>
-        <div class="right_div">
-          <div class="adout_div">
-            <z>About Me</z>
-          </div>
-          <div class="details_div">
-            I'm Souradeep Saha, a web developer currently pursuing a B.Tech in
-            Computer Science at UEM Kolkata. I completed my schooling at
-            Kendriya Vidyalaya Ordnance Factory Dum Dum. With a passion for web
-            development, I enjoy creating and maintaining websites and web
-            applications.
-            <div>.</div>
-            <div>
-              As a web developer, I take pleasure in crafting visually appealing
-              websites and web applications. Constantly exploring new
-              technologies, I strive to deliver seamless user experiences and
-              make a positive impact in this ever-evolving field.
-            </div>
-          </div>
-          <div class="work_div">
-            <z>What i'am doing</z>
-            <div class="work_top">
-              <a
-                >ui/ux designer
-                <div class="details">
-                  Designing intuitive interfaces for seamless user experiences
-                  through visual aesthetics and functionality.
-                </div>
-              </a>
-              <a
-                >freelancer
-                <div class="details">
-                  Work on a project basis for various clients. Perform tasks and
-                  projects from any location.
-                </div>
-              </a>
-            </div>
-            <div class="work_bottom">
-              <a
-                >youtuber
-                <div class="details">
-                  Content Creator, Videographer, Editor, Social Influencer,
-                  Researcher, Communicator,.
-                </div>
-              </a>
-              <a
-                >video editor
-                <div class="details">
-                  Edit and enhance video content for various projects. Apply
-                  visual and audio effects to enhance the video quality.
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="service" id="Service-section">
-        <div class="service_top">Our awesome services</div>
-        <div class="top-service">
-          <a>
-            <div class="service-details">
-              <img src="web development.png" />
-              <k>web devlopment</k>web devlopment Designing intuitive interfaces
-              for seamless user experiences through visual aesthetics and
-              functionality.
-            </div>
-          </a>
-          <a>
-            <div class="service-details">
-              <img src="code_FILL0_wght400_GRAD0_opsz48.png" />
-              <k>Android devlopment</k>web devlopment Designing intuitive
-              interfaces for seamless user experiences through visual aesthetics
-              and functionality.
-            </div>
-          </a>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Souradeep Saha | Web Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+:root{
+  --bg:#000;--panel:#050805;--panel2:#070b07;
+  --g:#39ff7a;--g2:#2bbf5c;--g3:#1c7a3c;--sage:#7fa987;--ink:#eafff1;
+  --amber:#ffd24a;--cyan:#5cf6ff;--line:#143614;--line2:#1f4d1f;
+  --glow:0 0 8px rgba(57,255,122,.45),0 0 24px rgba(57,255,122,.18);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{
+  background:var(--bg);color:var(--sage);
+  font:15px/1.7 "JetBrains Mono","IBM Plex Mono",ui-monospace,monospace;
+  background-image:radial-gradient(900px 500px at 90% -5%,rgba(57,255,122,.08),transparent 60%),radial-gradient(700px 500px at -10% 30%,rgba(57,255,122,.05),transparent 60%);
+  background-attachment:fixed;padding:28px 16px 60px;
+}
+::selection{background:rgba(57,255,122,.3)}
+a{color:inherit;text-decoration:none}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:99;
+  background:repeating-linear-gradient(to bottom,transparent 0,transparent 2px,rgba(0,0,0,.16) 3px,transparent 4px);
+  mix-blend-mode:multiply;opacity:.5}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--g);outline-offset:3px}
+.glow{text-shadow:var(--glow)}
+.hl{color:var(--g)}
+.cursor{display:inline-block;width:.6em;height:1.05em;background:var(--g);vertical-align:text-bottom;box-shadow:var(--glow);animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
 
-          <a>
-            <div class="service-details">
-              <img
-                src="https://tse3.mm.bing.net/th?id=OIP.kPP6K3I5FWTv_23JIPvTCgHaFV&pid=Api&P=0&h=180"
-              />
-              <k>web designer</k>web devlopment Designing intuitive interfaces
-              for seamless user experiences through visual aesthetics and
-              functionality.
-            </div>
-          </a>
-        </div>
-        <div class="top-service">
-          <a>
-            <div class="service-details">
-              <img src="viedeo_editor.jpg" />
-              <k>video editing</k>web devlopment Designing intuitive interfaces
-              for seamless user experiences through visual aesthetics and
-              functionality.
-            </div>
-          </a>
-          <a>
-            <div class="service-details">
-              <img src="coding.jpg" />
-              <k>programming</k>web devlopment Designing intuitive interfaces
-              for seamless user experiences through visual aesthetics and
-              functionality.
-            </div>
-          </a>
+/* window */
+.win{max-width:1120px;margin:0 auto;background:var(--panel);border:1px solid var(--line2);border-radius:8px;box-shadow:0 0 60px rgba(57,255,122,.08);overflow:hidden}
+.bar{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:14px;padding:12px 18px;background:var(--panel2);border-bottom:1px solid var(--line);flex-wrap:wrap}
+.dots{display:flex;gap:7px}.dots i{width:12px;height:12px;border-radius:50%;display:block}
+.dots i:nth-child(1){background:#ff5f56}.dots i:nth-child(2){background:#ffbd2e}.dots i:nth-child(3){background:#27c93f}
+.path{font-size:13px}.path b{color:var(--ink);font-weight:700}
+nav{margin-left:auto;display:flex;gap:18px;font-size:13px;flex-wrap:wrap}
+nav a{transition:color .2s,text-shadow .2s}
+nav a:hover{color:var(--g);text-shadow:var(--glow)}
+.status{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--amber)}
+.status i{width:8px;height:8px;border-radius:50%;background:var(--amber);box-shadow:0 0 10px var(--amber);animation:blink 1.4s steps(1) infinite}
+main{padding:34px clamp(18px,4vw,48px) 20px}
+section{padding:34px 0;border-bottom:1px solid transparent;border-image:linear-gradient(90deg,var(--g3),transparent) 1}
+section:last-of-type{border:0}
+.cmd{font-size:13px;margin-bottom:18px}
+.cmd .p{color:var(--cyan)}.cmd .c{color:var(--ink)}
+h2.t{font-size:clamp(22px,3.2vw,32px);color:var(--ink);font-weight:800;margin:6px 0 4px;letter-spacing:-.02em}
+.sub{font-size:12px;color:var(--g3);margin-bottom:26px}
 
-          <a>
-            <div class="service-details">
-              <img src="responsive_design.png" />
-              <k>responsive design</k>web devlopment Designing intuitive
-              interfaces for seamless user experiences through visual aesthetics
-              and functionality.
-            </div>
-          </a>
-        </div>
-      </div>
-      <div id="skills_Mob">
-        <h1 class="project_heading">Skills</h1>
-        <div class="skillColoum">
-          <div class="skillsRow">
-            <div class="skill">
-              <div class="skill1" style="width: 90%">
-                <j>html5</j>
-                <j> 90%</j>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill1" style="width: 80%">
-                <j>css3</j>
-                <j> 80%</j>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill1" style="width: 45%">
-                <j>java script</j>
-                <j> 45%</j>
-              </div>
-            </div>
-          </div>
-          <div class="skillsRow">
-            <div class="skill">
-              <div class="skill1" style="width: 40%">
-                <j>c</j>
-                <j> 40%</j>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill1" style="width: 50%">
-                <j>pyhon</j>
-                <j> 50%</j>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill1" style="width: 65%">
-                <j>ui/ux</j>
-                <j> 65%</j>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="Project" id="Projects-section">
-        <div class="project_heading">My projects</div>
-        <div class="proj-lap">
-          <div class="proj-lap1">
-            <img src="book review.png" alt="" />Book Review<a
-              href="https://souradeep1122.github.io/Book-Review-Project/index.html"
-              ><i class="ri-arrow-right-double-line"></i
-            ></a>
-          </div>
-          <div class="proj-lap1">
-            <img src="nature.png" alt="" />
-            Nature<a href="https://souradeep1122.github.io/Nature-website/"
-              ><i class="ri-arrow-right-double-line"></i
-            ></a>
-          </div>
-        </div>
-        <div class="proj-lap">
-          <div class="proj-lap1">
-            <img src="e-comerce.png" alt="" />E-commerce<a
-              href="https://souradeep1122.github.io/shoe-shop/"
-              ><i class="ri-arrow-right-double-line"></i
-            ></a>
-          </div>
-          <div class="proj-lap1">
-            <img src="calculator.jpg" alt="" />
-            Calculator<a
-              href="https://souradeep1122.github.io/Scientific-calculator/"
-              ><i class="ri-arrow-right-double-line"></i
-            ></a>
-          </div>
-        </div>
-        <div class="proj-lap">
-          <div class="proj-lap1">
-            <img src="Portfolio.png" alt="" />Portfolio<a
-              href="https://souradeep1122.github.io/Souradeep-portfolio2.0/"
-              ><i class="ri-arrow-right-double-line"></i
-            ></a>
-          </div>
-          <div class="proj-lap1">
-            <img src="Dashboard (1).png" alt="" />
-            Dashboard<a
-              href="https://souradeep1122.github.io/Rapid-Quest-Internship-Assignment/"
-              ><i class="ri-arrow-right-double-line"></i
-            ></a>
-          </div>
-        </div>
-        <div class="proj-lap">
-          <div class="proj-lap1">
-            <img src="traveller's treasure.png" alt="" />Backend Project<a
-              href="https://travellers-treasure.onrender.com/Cover"
-              ><i class="ri-arrow-right-double-line"></i
-            ></a>
-          </div>
-          <div class="proj-lap1">
-            <img src="Animated website.png" alt="" />
-            Animated-website<a
-              href="https://souradeep1122.github.io/Animated-website/"
-              ><i class="ri-arrow-right-double-line"></i
-            ></a>
-          </div>
-        </div>
-      </div>
-      <div class="contact" id="Contact-section">
-        <div class="contact_heading">Contact Us</div>
-        <div class="contact_form">
-          <div class="right_contact">
-            <k>Contact us</k>
-            <ul>
-              <input type="text" placeholder="    first name" />
-            </ul>
-            <ul>
-              <input type="text" placeholder="    last name" />
-            </ul>
-            <ul>
-              <input type="text" placeholder="   mobile no." />
-            </ul>
-            <ul>
-              <input type="text" placeholder="    email.id" />
-            </ul>
-            <ul>
-              <input type="text" placeholder="    query?" />
-            </ul>
-            <div class="button_contact">
-              <button>Sign up</button>
-              <button>submit</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="blog" id="Blog-section">
-        <div class="blog_heading">our blog's</div>
-        <div class="blog_body">comming soon....</div>
-      </div>
-      <div class="footer-Mob">
-        <div class="links-Mob">
-          <a href=""><i class="ri-github-fill"></i></a>
-          <a href=""><i class="ri-linkedin-box-fill"></i></a>
-          <a href=""><i class="ri-mail-add-fill"></i></a>
-        </div>
+/* hero */
+.name{font-size:clamp(34px,8vw,60px)!important;line-height:1.05;font-weight:800;color:var(--ink);text-shadow:0 0 10px rgba(57,255,122,.5),0 0 30px rgba(57,255,122,.25);letter-spacing:-.03em;min-height:1.1em;margin:6px 0 14px}
+.role{color:var(--g);font-size:17px;text-shadow:var(--glow);margin-bottom:12px}
+.role span{color:var(--sage)}
+.intro{max-width:640px;margin-bottom:18px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:13px;margin-bottom:26px}
+.meta span::before{content:"[x] ";color:var(--g)}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 18px;border-radius:4px;font:700 13px "JetBrains Mono",monospace;cursor:pointer;border:1px solid var(--g);transition:transform .2s,box-shadow .2s,background .2s}
+.btn.solid{background:var(--g);color:#001a08;box-shadow:var(--glow)}
+.btn.solid:hover{transform:translateY(-2px);box-shadow:0 0 30px rgba(57,255,122,.6)}
+.btn.ghost{background:transparent;color:var(--g)}
+.btn.ghost:hover{background:rgba(57,255,122,.1);transform:translateY(-2px)}
 
-        © 2023 Souradeep Saha. All rights reserved.
+/* neofetch */
+.nf{display:grid;grid-template-columns:230px 1fr;gap:28px;padding:24px;background:var(--bg);border:1px solid var(--line);border-radius:6px}
+.av{text-align:center}
+.av pre{font:700 12px/1.25 'JetBrains Mono',monospace;color:var(--g);text-shadow:var(--glow);display:inline-block;text-align:left;margin-bottom:10px}
+.av small{color:var(--g);font-size:12px}
+.nf h3{color:var(--g);font-size:15px;text-shadow:var(--glow);margin-bottom:10px}
+dl{display:grid;grid-template-columns:90px 1fr;gap:4px 14px;font-size:14px}
+dt{color:var(--g)}dd{color:var(--sage)}dd.av2{color:var(--amber);text-shadow:0 0 8px rgba(255,210,74,.5)}
+.sw{display:flex;gap:4px;margin-top:16px}.sw i{width:22px;height:12px;border-radius:2px}
+
+/* projects */
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{display:block;background:var(--bg);border:1px solid var(--line);border-radius:6px;overflow:hidden;transition:transform .25s,border-color .25s,box-shadow .25s}
+.card:hover{transform:translateY(-4px);border-color:var(--g2);box-shadow:0 0 28px rgba(57,255,122,.18)}
+.card .shot{height:150px;background:var(--panel2) center/cover no-repeat;border-bottom:1px solid var(--line);position:relative}
+.card .shot::after{content:"";position:absolute;inset:0;background:rgba(0,30,10,.35);mix-blend-mode:multiply;transition:opacity .3s}
+.card:hover .shot::after{opacity:0}
+.card .body{padding:16px 18px 18px}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:6px}
+.fn{color:var(--g);font-weight:700;text-shadow:var(--glow)}.fn s{text-decoration:none;color:var(--g3)}
+.perm{font-size:11px;color:var(--g3)}
+.card p{font-size:13px;margin-bottom:12px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.tag{font-size:11px;padding:2px 9px;border:1px solid var(--line2);border-radius:99px;color:var(--g2)}
+.tag.a{border-color:rgba(255,210,74,.5);color:var(--amber)}
+.lk{font-size:12px;color:var(--g)}.lk::before{content:"-> "}
+
+/* skills */
+.sk{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 44px;padding:24px;background:var(--bg);border:1px solid var(--line);border-radius:6px}
+.row{display:grid;grid-template-columns:110px 1fr 44px;align-items:center;gap:12px;font-size:13px}
+.trk{height:9px;background:#020502;border:1px solid var(--line2);border-radius:2px;overflow:hidden}
+.fill{height:100%;width:0;background:linear-gradient(90deg,var(--g2),var(--g));box-shadow:0 0 10px rgba(57,255,122,.6);transition:width 1.3s cubic-bezier(.2,.8,.2,1)}
+.row b{text-align:right;color:var(--g);font-weight:500}
+
+/* experience / education / stack */
+.job{padding:22px 24px;background:var(--bg);border:1px solid var(--line);border-left:2px solid var(--g);border-radius:6px}
+.jh{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px 16px;margin-bottom:12px}
+.jh b{color:var(--ink);font-size:16px}.jh span{color:var(--amber);font-size:12px}
+.job ul,.two ul{list-style:none;display:grid;gap:8px;font-size:13.5px}
+.job li::before,.two li::before{content:"[x] ";color:var(--g)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.two{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.two>div{padding:20px 22px;background:var(--bg);border:1px solid var(--line);border-radius:6px}
+.two h3{color:var(--g);font-size:14px;margin-bottom:12px;text-shadow:var(--glow)}
+.two .it{margin-bottom:12px;font-size:13.5px}.two .it b{color:var(--ink);display:block}.two .it em{font-style:normal;color:var(--g3);font-size:12px}
+.tech{display:grid;gap:12px;padding:22px 24px;background:var(--bg);border:1px solid var(--line);border-radius:6px;margin-bottom:18px}
+.tech div{display:grid;grid-template-columns:150px 1fr;gap:10px;font-size:13px;align-items:start}
+.tech div>span{color:var(--g)}.tech .chips{margin:0}
+/* services */
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.svc div{padding:16px;border:1px solid var(--line);border-radius:6px;background:var(--bg);font-size:13px}
+.svc b{display:block;color:var(--ink);margin-bottom:4px}
+.svc b::before{content:"[x] ";color:var(--g)}
+
+/* contact */
+.cta{text-align:center;padding:36px 20px;border:1px solid var(--line2);border-radius:6px;background:linear-gradient(180deg,rgba(57,255,122,.07),transparent)}
+.cta h2{font-size:clamp(22px,4vw,34px);color:var(--ink);margin-bottom:8px}
+.cmdbox{display:inline-flex;align-items:center;gap:10px;margin:22px 0;padding:12px 18px;border:1px solid var(--g3);border-radius:4px;background:var(--bg);box-shadow:var(--glow);color:var(--ink);cursor:pointer;font:500 15px "JetBrains Mono",monospace;max-width:100%}
+.cmdbox .d{color:var(--g)}
+.cmdbox em{font-style:normal;font-size:11px;color:var(--g3)}
+form{max-width:520px;margin:6px auto 22px;display:grid;gap:10px;text-align:left}
+input,textarea{width:100%;background:var(--bg);border:1px solid var(--line2);border-radius:4px;color:var(--ink);padding:10px 12px;font:14px "JetBrains Mono",monospace}
+input::placeholder,textarea::placeholder{color:var(--g3)}
+input:focus,textarea:focus{border-color:var(--g);box-shadow:var(--glow);outline:0}
+.pills{display:flex;justify-content:center;flex-wrap:wrap;gap:10px}
+.pills a{padding:6px 14px;border:1px solid var(--line2);border-radius:99px;font-size:13px;transition:.2s}
+.pills a::before{content:"-> ";color:var(--g)}
+.pills a:hover{border-color:var(--g);color:var(--g);box-shadow:var(--glow)}
+footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;padding:18px clamp(18px,4vw,48px);border-top:1px solid var(--line);font-size:12px}
+footer .git{color:var(--g3)}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}
+.rv.in{opacity:1;transform:none}
+/* boot */
+#boot{position:fixed;inset:0;z-index:200;background:#000;display:flex;align-items:center;justify-content:center;transition:opacity .5s}
+#boot pre{font:13px/1.8 "JetBrains Mono",monospace;color:var(--g);text-shadow:var(--glow);width:min(440px,90vw)}
+#boot.off{opacity:0;pointer-events:none}
+
+@media(max-width:820px){
+  nav{width:100%;margin:0;order:3;gap:14px}
+  .status{margin-left:auto}
+  .nf{grid-template-columns:1fr}
+  .grid,.sk,.svc,.two{grid-template-columns:1fr}
+  .tech div{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  .rv{opacity:1;transform:none}.fill{transition:none}
+}
+</style>
+</head>
+<body>
+
+<div id="boot"><pre id="bootText"></pre></div>
+
+<div class="win">
+  <header class="bar">
+    <div class="dots"><i></i><i></i><i></i></div>
+    <div class="path"><b>souradeep</b>@portfolio: ~/dev</div>
+    <div class="status"><i></i>available for work</div>
+    <nav>
+      <a href="#home">~/home</a><a href="#experience">~/experience</a><a href="#work">~/work</a><a href="#stack">~/stack</a><a href="#services">~/services</a><a href="#contact">~/contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="cmd"><span class="p">souradeep~/dev $</span> <span class="c">whoami --full</span></div>
+      <h1 class="name" id="nameEl" aria-label="Souradeep Saha"><span id="typed"></span><span class="cursor"></span></h1>
+      <div class="role"><span>&gt;</span> MERN stack developer &amp; UI/UX designer</div>
+      <p class="intro">Passionate <span class="hl">MERN stack developer</span> and <span class="hl">UI/UX designer</span> with hands-on experience in full-stack web development and modern interface design. I build functional web apps and intuitive, user-centric digital experiences.</p>
+      <div class="meta"><span>Kolkata, IN (UTC+5:30)</span><span>MongoDB / Express / React / Node</span><span>UI/UX intern @ Kyptronix</span><span>open to work</span></div>
+      <div class="btns">
+        <a class="btn solid" href="#work">$ ls ~/projects -&gt;</a>
+        <a class="btn ghost" href="cv.pdf">./download --cv</a>
+        <a class="btn ghost" href="#contact">./contact --hire</a>
       </div>
+    </section>
+
+    <section id="about" class="rv">
+      <div class="cmd"><span class="p">souradeep~/dev $</span> <span class="c">neofetch</span></div>
+      <div class="nf">
+        <div class="av">
+          <pre aria-hidden="true">+----------+
+| &gt; S_     |
+|  {dev}   |
+|  &lt;/ui&gt;   |
++----------+</pre><br>
+          <small>souradeep@dev</small>
+        </div>
+        <div>
+          <h3>souradeep@portfolio ----------</h3>
+          <dl>
+            <dt>OS</dt><dd>Human v20 (student build)</dd>
+            <dt>Host</dt><dd>Dum Dum, Kolkata, IN</dd>
+            <dt>Role</dt><dd>MERN developer + UI/UX designer</dd>
+            <dt>School</dt><dd>UEM Kolkata, B.Tech CSE (CGPA 8.19 till 7th sem)</dd>
+            <dt>Work</dt><dd>UI/UX Intern, Kyptronix LLP</dd>
+            <dt>Stack</dt><dd>MongoDB, Express, React, Node.js</dd>
+            <dt>Cloud</dt><dd>AWS (EC2, S3, RDS), VPS</dd>
+            <dt>Tools</dt><dd>Figma, Canva, Tailwind, Git</dd>
+            <dt>Langs</dt><dd>English, Hindi, Bengali</dd>
+            <dt>Hobbies</dt><dd>Videography, personal fitness</dd>
+            <dt>Status</dt><dd class="av2">available</dd>
+          </dl>
+          <div class="sw"><i style="background:#ff5f56"></i><i style="background:#ffbd2e"></i><i style="background:#27c93f"></i><i style="background:#39ff7a"></i><i style="background:#2bbf5c"></i><i style="background:#5cf6ff"></i><i style="background:#1c7a3c"></i><i style="background:#eafff1"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="rv">
+      <div class="cmd"><span class="p">souradeep~/dev $</span> <span class="c">git log --experience</span></div>
+      <h2 class="t">Where I've worked</h2>
+      <div class="sub">hands-on, shipped, in production</div>
+      <div class="job">
+        <div class="jh"><b>UI/UX Intern @ Kyptronix LLP</b><span>Jul 2026 - Sep 2026 / 3 months</span></div>
+        <ul>
+          <li>Contributed to multiple UI/UX projects across mobile and desktop, including Android and iOS applications.</li>
+          <li>Designed modern interfaces with glassmorphism themes, focusing on visual consistency, usability and responsive layouts.</li>
+          <li>Created wireframes, user flows, interactive prototypes and high-fidelity designs in Figma to communicate and validate ideas.</li>
+          <li>Designed and refined custom icons and UI elements, keeping one visual language across screens and platforms.</li>
+        </ul>
+        <div class="chips"><span class="tag">Figma</span><span class="tag">Wireframes</span><span class="tag">Prototyping</span><span class="tag">Glassmorphism</span><span class="tag">Android + iOS</span></div>
+      </div>
+      <div class="two" style="margin-top:18px">
+        <div>
+          <h3>&gt; education</h3>
+          <div class="it"><b>University of Engineering and Management, Kolkata</b>B.Tech in Computer Science and Technology<br><em>CGPA 8.19 (till 7th semester)</em></div>
+          <div class="it"><b>Kendriya Vidyalaya Ordnance Factory Dum Dum</b>Class X (CBSE) 83% / Class XII (CBSE) 73%</div>
+        </div>
+        <div>
+          <h3>&gt; courses &amp; certifications</h3>
+          <div class="it"><b>AWS Cloud Practitioner Essentials</b>Cloud fundamentals, global infrastructure, security compliance and core services (EC2, S3, RDS).<br><em>Mar 2025</em></div>
+          <div class="it"><b>Foundations of User Experience (UX) Design</b>LinkedIn. Usability, information architecture and the design sprint framework.<br><em>Dec 2025</em></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="rv">
+      <div class="cmd"><span class="p">souradeep~/dev $</span> <span class="c">ls -la ~/projects</span> <span style="color:var(--g3)"># 6 selected</span></div>
+      <h2 class="t">Things I built and shipped</h2>
+      <div class="sub">drwxr-xr-x // click a card to open the live demo</div>
+      <div class="grid" id="projects"></div>
+    </section>
+
+    <section id="stack" class="rv">
+      <div class="cmd"><span class="p">souradeep~/dev $</span> <span class="c">cat stack.txt | sort -r</span></div>
+      <h2 class="t">The tools I reach for</h2>
+      <div class="sub">self-assessed, honest</div>
+      <div class="tech">
+        <div><span>languages</span><div class="chips"><span class="tag">Python</span><span class="tag">Java</span><span class="tag">JavaScript</span></div></div>
+        <div><span>web</span><div class="chips"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Tailwind</span><span class="tag">React.js</span><span class="tag">Figma</span><span class="tag">Canva</span></div></div>
+        <div><span>backend &amp; databases</span><div class="chips"><span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">MongoDB</span><span class="tag">MySQL</span></div></div>
+        <div><span>cloud</span><div class="chips"><span class="tag">AWS EC2</span><span class="tag">AWS S3</span><span class="tag">AWS RDS</span><span class="tag">VPS hosting</span></div></div>
+        <div><span>course work</span><div class="chips"><span class="tag">MySQL</span><span class="tag">MongoDB</span><span class="tag">Operating Systems</span><span class="tag">AI/ML</span><span class="tag">OOPS</span></div></div>
+      </div>
+      <div class="sk" id="skills"></div>
+    </section>
+
+    <section id="services" class="rv">
+      <div class="cmd"><span class="p">souradeep~/dev $</span> <span class="c">man services</span></div>
+      <h2 class="t">What I can do for you</h2>
+      <div class="sub">freelance, remote, project-based</div>
+      <div class="svc">
+        <div><b>Web development</b>Fast, responsive sites and web apps built from scratch.</div>
+        <div><b>UI/UX design</b>Clear interfaces that balance looks and function.</div>
+        <div><b>Responsive design</b>Layouts that work on phone, tablet and desktop.</div>
+        <div><b>Programming</b>Clean code in JavaScript, Python and C.</div>
+        <div><b>Android development</b>Mobile app interfaces and logic.</div>
+        <div><b>Video editing</b>Cuts, effects and audio polish for your content.</div>
+      </div>
+    </section>
+
+    <section id="contact" class="rv">
+      <div class="cmd"><span class="p">souradeep~/dev $</span> <span class="c">./contact --hire</span></div>
+      <div class="cta">
+        <h2>Let's build something <span class="hl glow">together.</span></h2>
+        <p>Have a project or an idea? Send a message and I'll reply soon.</p>
+        <div class="cmdbox" id="copyBox" role="button" tabindex="0" title="Copy email"><span class="d">$</span><span>mail souradeep418saha@gmail.com</span><span class="cursor"></span><em id="copyHint">click to copy</em></div>
+        <form id="form">
+          <input id="fn" placeholder="name" required />
+          <input id="fe" type="email" placeholder="email" required />
+          <textarea id="fm" rows="4" placeholder="what are we building?" required></textarea>
+          <button class="btn solid" type="submit">$ send --message</button>
+        </form>
+        <div class="pills">
+          <a href="https://github.com/souradeep1122">github</a>
+          <a href="https://linkedin.com">linkedin</a>
+          
+          
+          <a href="cv.pdf">CV.pdf</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>$ echo "(c) 2026 Souradeep Saha, built in the terminal" <span class="cursor"></span></div>
+    <div class="git">last commit: today, main@a1f9e2c</div>
+  </footer>
+</div>
+
+<script>
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* data */
+const projects = [
+  ["pumpsense-dashboard/","Pumpsense Report Dashboard","Full-stack report processing and management dashboard for Pumpsense Fluid Engineering. Third-party APIs automate data storage and background jobs. Backend on a VPS, files on AWS S3, live in production across the company's engineering operations.",["HTML","Tailwind","Node","Express","MongoDB","AWS S3","*production"],"","",
+"Mar 2026"],
+  ["book-review/","Book Review","Browse and review books in a clean layout.",["HTML","CSS","JS"],"https://souradeep1122.github.io/Book-Review-Project/index.html","book%20review.png"],
+  ["shoe-shop/","E-commerce","Storefront for shoes with product listings.",["HTML","CSS","JS"],"https://souradeep1122.github.io/shoe-shop/","e-comerce.png"],
+  ["portfolio-2.0/","Portfolio 2.0","My earlier portfolio, kept for reference.",["HTML","CSS","*open source"],"https://souradeep1122.github.io/Souradeep-portfolio2.0/","Portfolio.png"],
+  ["travellers-treasure/","Backend Project","Full-stack travel site with a Node backend.",["Node","Express","*SaaS"],"https://travellers-treasure.onrender.com/Cover","traveller's%20treasure.png"],
+  ["animated-website/","Animated Website","Scroll and hover animations, front to back.",["HTML","CSS","JS"],"https://souradeep1122.github.io/Animated-website/","Animated%20website.png"]
+];
+const skills = [["HTML/CSS",90],["Figma",80],["Node/Express",72],["React",70],["MongoDB",70],["Python",60],["Java",55],["AWS",55]];
+
+document.getElementById('projects').innerHTML = projects.map((p,i)=>{
+  const link = p[4], tag = link ? 'a' : 'div';
+  const attrs = link ? `href="${link}" target="_blank" rel="noopener"` : '';
+  return `<${tag} class="card rv" ${attrs} style="transition-delay:${(i%2)*80}ms">
+    ${p[5] ? `<div class="shot" style="background-image:url('${p[5]}')"></div>` : ''}
+    <div class="body">
+      <div class="top"><span class="fn">${p[0].replace('/','')}<s>/</s></span><span class="perm">${p[6]||'-rwxr-xr-x'}</span></div>
+      <p>${p[2]}</p>
+      <div class="tags">${p[3].map(t=>t[0]==='*'?`<span class="tag a">${t.slice(1)}</span>`:`<span class="tag">${t}</span>`).join('')}</div>
+      ${link ? '<span class="lk">live demo</span>' : '<span class="lk" style="color:var(--g3)">private, company internal</span>'}
     </div>
+  </${tag}>`;
+}).join('');
 
-    <div class="Mobile">
-      <div class="nav-Mob">
-        <div class="nav-left-mob">souradeep</div>
-        <div class="nav-right-mob">
-          <div class="mode">
-            <div class="circle" onclick="mode()"></div>
-          </div>
-          <x class="menu-icon" onclick=" slideNav()"
-            ><i class="ri-menu-3-line"></i
-          ></x>
-        </div>
-      </div>
-      <div class="menu-Mob">
-        <a href="#title-Mob">
-          <ul>
-            home
-          </ul></a
-        >
-        <a href="#about_mob">
-          <ul>
-            about
-          </ul></a
-        >
-        <a href="#service_Mob">
-          <ul>
-            service
-          </ul></a
-        >
-        <a href="#skills_Mob">
-          <ul>
-            skills
-          </ul></a
-        >
-        <a href="#project_Mob">
-          <ul>
-            projects
-          </ul></a
-        >
-        <a href="#Contact-mob">
-          <ul>
-            contacts
-          </ul></a
-        >
-        <a href="#blog_mob">
-          <ul>
-            blogs
-          </ul></a
-        >
+document.getElementById('skills').innerHTML = skills.map(s=>`
+  <div class="row"><span>${s[0]}</span><div class="trk"><div class="fill" data-w="${s[1]}"></div></div><b>${s[1]}%</b></div>`).join('');
 
-        <a class="cross"><i class="ri-close-line"></i></a>
-      </div>
-      <div id="title-Mob">
-        <div class="top_abt">
-          <img src="ss (47).jpg" alt="" />
-        </div>
-        <div class="buttom_abt">
-          <div class="div1"><button>web developer</button></div>
-          <div class="div2">souradeep saha</div>
-          <div class="div3">
-            Experienced web developer skilled in creating dynamic websites and
-            applications for optimal user engagement.
-          </div>
-          <div class="div4">
-            <button>dowbload cv</button>
-            <button>Contact Me</button>
-          </div>
-          <div class="div5">
-            <a href="https://youtube.com"><i class="ri-youtube-fill"></i></a>
-            <a href="https:facebook.com"
-              ><i class="ri-facebook-box-fill"></i
-            ></a>
-            <a href="https:linkedin.com"
-              ><i class="ri-linkedin-box-fill"></i
-            ></a>
-            <a href="https://wa.me/qr/7K6JQNNMSCLPM1"
-              ><i class="ri-whatsapp-fill"></i
-            ></a>
-            <a href="https://github.com/souradeep1122"
-              ><i class="ri-github-fill"></i
-            ></a>
-          </div>
-        </div>
-      </div>
-      <div id="about_mob">
-        <div class="about_div">about me</div>
-        <h1 class="H1">
-          I'm Souradeep Saha, a web developer currently pursuing a B.Tech in
-          Computer Science at UEM Kolkata. I completed my schooling at Kendriya
-          Vidyalaya Ordnance Factory Dum Dum. With a passion for web
-          development, I enjoy creating and maintaining websites and web
-          applications.
-        </h1>
-        <h1 class="H1">
-          As a web developer, I take pleasure in crafting visually appealing
-          websites and web applications. Constantly exploring new technologies,
-          I strive to deliver seamless user experiences and make a positive
-          impact in this ever-evolving field.
-        </h1>
-        <div class="doing_div">what i'am doing</div>
-        <div class="work_top">
-          <a
-            >ui/ux designer
-            <div class="details">
-              Designing intuitive interfaces for seamless user experiences
-              through visual aesthetics and functionality.
-            </div>
-          </a>
-        </div>
-        <div class="work_top">
-          <a
-            >freelancer
-            <div class="details">
-              Work on a project basis for various clients. Perform tasks and
-              projects from any location.
-            </div>
-          </a>
-        </div>
-        <div class="work_top">
-          <a
-            >youtuber
-            <div class="details">
-              Content Creator, Videographer, Editor, Social Influencer,
-              Researcher, Communicator,
-            </div>
-          </a>
-        </div>
-        <div class="work_top">
-          <a
-            >video editor
-            <div class="details">
-              Edit and enhance video content for various projects. Apply visual
-              and audio effects to enhance the video quality.
-            </div>
-          </a>
-        </div>
-      </div>
-      <div id="service_Mob">
-        <h1 class="top_heading-Mob">our service</h1>
-        <div class="row1-Mob">
-          <div class="service-details-Mob">
-            <img src="web development.png" />
-            <k>web devlopment</k>
+/* scroll reveal + bar fill */
+const io = new IntersectionObserver(es=>es.forEach(e=>{
+  if(!e.isIntersecting) return;
+  e.target.classList.add('in');
+  e.target.querySelectorAll?.('.fill').forEach(f=>f.style.width=f.dataset.w+'%');
+  io.unobserve(e.target);
+}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+if(reduce) document.querySelectorAll('.fill').forEach(f=>f.style.width=f.dataset.w+'%');
 
-            <o
-              >Designing intuitive interfaces for seamless user experiences
-              through visual aesthetics and functionality.
-            </o>
-          </div>
-          <div class="service-details-Mob">
-            <img src="coding.jpg" />
-            <k>programming</k>
+/* boot sequence then name typing: the one orchestrated moment */
+const boot = document.getElementById('boot'), bt = document.getElementById('bootText');
+const lines = ["> booting portfolio v2.0 ...","> loading modules ........ [ok]","> mounting ~/projects ...... [ok]","> hello, world."];
+const typed = document.getElementById('typed');
+function typeName(){
+  const full = "Souradeep Saha"; let i=0;
+  const t = setInterval(()=>{ typed.textContent = full.slice(0,++i); if(i>=full.length) clearInterval(t); },70);
+}
+if(reduce){ boot.remove(); typed.textContent="Souradeep Saha"; }
+else{
+  let l=0;
+  const step=()=>{
+    if(l<lines.length){ bt.textContent += lines[l++]+"\n"; setTimeout(step,260); }
+    else setTimeout(()=>{ boot.classList.add('off'); typeName(); setTimeout(()=>boot.remove(),600); },350);
+  };
+  step();
+}
 
-            <o
-              >Designing intuitive interfaces for seamless user experiences
-              through visual aesthetics and functionality.
-            </o>
-          </div>
-        </div>
-        <div class="row1-Mob">
-          <div class="service-details-Mob">
-            <img src="web designer.avif" />
-            <k>web designer</k>
+/* copy email */
+const box = document.getElementById('copyBox'), hint = document.getElementById('copyHint');
+const email = "souradeep418saha@gmail.com";
+const copy = ()=>{ (navigator.clipboard?.writeText(email)||Promise.reject()).then(()=>hint.textContent="copied!").catch(()=>hint.textContent="copy failed"); setTimeout(()=>hint.textContent="click to copy",1800); };
+box.addEventListener('click',copy);
+box.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){e.preventDefault();copy();} });
 
-            <o
-              >Designing intuitive interfaces for seamless user experiences
-              through visual aesthetics and functionality.
-            </o>
-          </div>
-          <div class="service-details-Mob">
-            <img src="responsive_design.png" />
-            <k>responsive design</k>
-
-            <o
-              >Designing intuitive interfaces for seamless user experiences
-              through visual aesthetics and functionality.
-            </o>
-          </div>
-        </div>
-        <div class="row1-Mob">
-          <div class="service-details-Mob">
-            <img src="viedeo_editor.jpg" />
-            <k>video editing</k>
-
-            <o
-              >Designing intuitive interfaces for seamless user experiences
-              through visual aesthetics and functionality.
-            </o>
-          </div>
-          <div class="service-details-Mob">
-            <img src="code_FILL0_wght400_GRAD0_opsz48.png" />
-            <k>Android devlopment</k>
-
-            <o
-              >Designing intuitive interfaces for seamless user experiences
-              through visual aesthetics and functionality.
-            </o>
-          </div>
-        </div>
-      </div>
-      <div id="skills_Mob">
-        <h1 class="top_heading-Mob">Skills</h1>
-        <div class="skill">
-          <div class="skill1" style="width: 90%">
-            <j>html5</j>
-            <j> 90%</j>
-          </div>
-        </div>
-        <div class="skill">
-          <div class="skill1" style="width: 80%">
-            <j>css3</j>
-            <j> 80%</j>
-          </div>
-        </div>
-        <div class="skill">
-          <div class="skill1" style="width: 45%">
-            <j>java script</j>
-            <j> 45%</j>
-          </div>
-        </div>
-        <div class="skill">
-          <div class="skill1" style="width: 40%">
-            <j>c</j>
-            <j> 40%</j>
-          </div>
-        </div>
-        <div class="skill">
-          <div class="skill1" style="width: 50%">
-            <j>pyhon</j>
-            <j> 50%</j>
-          </div>
-        </div>
-        <div class="skill">
-          <div class="skill1" style="width: 65%">
-            <j>ui/ux</j>
-            <j> 65%</j>
-          </div>
-        </div>
-      </div>
-      <div id="project_Mob">
-        <h1 class="top_heading-Mob">My Projects</h1>
-        <div class="project1-Mob">
-          <div class="project-row">
-            <div class="project-dtls-mob">
-              <a
-                href="https://souradeep1122.github.io/Book-Review-Project/index.html"
-              >
-                <img src="book review.png" alt="" />
-                Book Review
-                <i class="ri-arrow-right-double-line"></i
-              ></a>
-            </div>
-          </div>
-          <div class="project-row">
-            <div class="project-dtls-mob">
-              <a href="https://souradeep1122.github.io/Nature-website/">
-                <img src="nature.png" alt="" />
-                Nature
-                <i class="ri-arrow-right-double-line"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="project1-Mob">
-          <div class="project-row">
-            <div class="project-dtls-mob">
-              <a href="https://souradeep1122.github.io/Souradeep-portfolio2.0/">
-                <img src="Portfolio.png" alt="" />
-                Portfolio
-                <i class="ri-arrow-right-double-line"></i
-              ></a>
-            </div>
-          </div>
-          <div class="project-row">
-            <div class="project-dtls-mob">
-              <a
-                href="https://darjeeling.onrender.com/"
-              >
-                <img src="dar.png" alt="" />
-                Darjeeling Tourism
-                <i class="ri-arrow-right-double-line"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="project1-Mob">
-          <div class="project-row">
-            <div class="project-dtls-mob">
-              <a href="https://souradeep1122.github.io/shoe-shop/">
-                <img src="e-comerce.png" alt="" />
-                E-commerce
-                <i class="ri-arrow-right-double-line"></i>
-              </a>
-            </div>
-          </div>
-          <div class="project-row">
-            <div class="project-dtls-mob">
-              <a href="https://souradeep1122.github.io/Scientific-calculator/">
-                <img src="calculator.jpg" alt="" />
-                Calculator
-                <i class="ri-arrow-right-double-line"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="project1-Mob">
-          <div class="project-row">
-            <div class="project-dtls-mob">
-              <a href="https://souradeep1122.github.io/Animated-website/">
-                <img src="Animated website.png" alt="" />
-                Animated Website
-                <i class="ri-arrow-right-double-line"></i>
-              </a>
-            </div>
-          </div>
-          <div class="project-row">
-            <div class="project-dtls-mob">
-              <a href="https://travellers-treasure.onrender.com/Cover">
-                <img src="traveller's treasure.png" alt="" />
-                Backend Project
-                <i class="ri-arrow-right-double-line"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="Contact-mob">
-        <h1 class="top_heading-Mob">contacts</h1>
-        <div class="contacts">
-          <k>contact us</k>
-          <input type="text" placeholder="    first name" />
-          <input type="text" placeholder="    last name" />
-          <input type="text" placeholder="   mobile no." />
-          <input type="text" placeholder="    email.id" />
-          <input type="text" placeholder="    query?" />
-          <button>submit</button>
-        </div>
-      </div>
-      <div id="blog_mob">
-        <h1 class="top_heading-Mob">blogs</h1>
-        <div class="blog_div">comming soon...</div>
-      </div>
-      <div class="footer-Mob">
-        <div class="links-Mob">
-          <a href=""><i class="ri-github-fill"></i></a>
-          <a href=""><i class="ri-linkedin-box-fill"></i></a>
-          <a href=""><i class="ri-mail-add-fill"></i></a>
-        </div>
-
-        © 2023 Souradeep Saha. All rights reserved.
-      </div>
-    </div>
-
-    <script src="script.js"></script>
-  </body>
+/* contact form -> mailto (no backend needed) */
+document.getElementById('form').addEventListener('submit',e=>{
+  e.preventDefault();
+  const n=fn.value, em=fe.value, m=fm.value;
+  location.href = `mailto:${email}?subject=${encodeURIComponent('Portfolio message from '+n)}&body=${encodeURIComponent(m+'\n\nReply to: '+em)}`;
+});
+</script>
+</body>
 </html>
