@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Souradeep Saha — Dark Neon-Lime Portfolio
 
 > Production-ready personal portfolio website for **Souradeep Saha** (MERN Stack Developer & UI/UX Designer, Kolkata, India).
@@ -140,3 +141,6 @@ export default defineConfig({
 ## 📄 License
 
 MIT © [Souradeep Saha](https://github.com/souradeep1122)
+=======
+https://souradeep1122.github.io/Souradeep-portfolio2.0/
+>>>>>>> 200ba024d0e25a2540f937147437ab41f80dab0a
