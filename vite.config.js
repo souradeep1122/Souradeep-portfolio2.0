@@ -6,7 +6,7 @@ export default defineConfig({
     // GitHub Pages deployment note: if deploying to https://<USERNAME>.github.io/<REPO>/,
     // change base to '/<REPO>/' (e.g. '/Souradeep-portfolio3.0/').
     // For Vercel / Netlify root domain, leave as '/'.
-    base: './',
+    base: '/',
     build: {
         outDir: 'dist',
         sourcemap: false,
